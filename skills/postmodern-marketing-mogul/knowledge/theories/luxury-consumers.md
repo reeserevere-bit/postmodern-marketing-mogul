@@ -1,4 +1,0 @@
-# luxury consumers
-
-[[Consumers]]
-There is also discussion of the luxury market taking a different path than overt snob appeal or conspicuous consumption, with luxury becoming more subtle or inconspicuous in its branding (Berger and Ward, 2010, Han et al., 2010, Kover et al., 2019, Oe et al., 2018) as a possible means for traditional, extraordinary luxury consumers (Kapferer & Valette-Florence, 2018) to separate themselves from newer, more ordinary luxury consumers who have penetrated the luxury market. Makkar and Yap (2018b, p. 130) define inconspicuous luxury consumption as “the use of subtle signals that are unidentifiable by the mainstream but instantly observable to those with the needed connoisseurship to decode their meanings.” This research focuses on better understanding inconspicuous luxury consumption through developing a measure of what motivates it, specifically, an inventory of inconspicuous luxury motivations.
