@@ -10,18 +10,20 @@ const BLUE = c(37, 99, 235);    // #2563eb
 const DEEP = c(30, 64, 175);    // #1e40af
 const DIM = (s) => `\x1b[2m${s}\x1b[0m`;
 
-const R = [
-  "██████╗ ",
-  "██╔══██╗",
-  "██████╔╝",
-  "██╔══██╗",
-  "██║  ██║",
-  "╚═╝  ╚═╝",
-];
-const tint = [SKY, SKY, BLUE, BLUE, DEEP, DEEP];
-const rows = R.map((_, i) => tint[i](`${R[i]}  ${R[i]}  ${R[i]}`));
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+const logo = readFileSync(fileURLToPath(new URL("./rrr-logo.ansi", import.meta.url)), "utf8").trimEnd().split("\n");
+const LOGO_W = 34;
+const side = {
+  [Math.floor(logo.length / 2) - 3]: BLUE("POSTMODERN"),
+  [Math.floor(logo.length / 2) - 2]: BLUE("MARKETING"),
+  [Math.floor(logo.length / 2) - 1]: BLUE("MOGUL"),
+  [Math.floor(logo.length / 2)]: DEEP("──────────────"),
+  [Math.floor(logo.length / 2) + 1]: DIM("Revere Marketing Moguls"),
+  [Math.floor(logo.length / 2) + 2]: DIM("reveremarketingmoguls.com"),
+};
+const rows = logo.map((l, i) => l + "   " + (side[i] ?? ""));
 
-const title = "P O S T M O D E R N   M A R K E T I N G   M O G U L";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const fast = !process.stdout.isTTY || process.env.NO_ANIMATION;
 
@@ -30,10 +32,6 @@ for (const row of rows) {
   console.log("  " + row);
   if (!fast) await sleep(70);
 }
-console.log("");
-console.log("  " + BLUE(title));
-console.log("  " + DEEP("────────────────────────────────────────────────────"));
-console.log("  " + DIM("Revere Marketing Moguls  ·  reveremarketingmoguls.com"));
 console.log("");
 if (!fast) {
   for (const step of ["loading Revere's frameworks", "loading the canon (47 theories)", "ready"]) {
