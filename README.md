@@ -29,4 +29,6 @@ The list and the long writing live at https://rrrevere.substack.com.
 No hosted chat, no email capture, no messenger. This is a skill, not a service.
 
 ## Notes
-Tested on qwen2.5:7b-instruct. Type `/agent postmodern-marketing-mogul` to run it directly.
+Tested Nov 2026 on Claude Sonnet (Claude Project path) across 10 unrelated businesses: coffee, hot sauce, an eco-lodge, cleaning spray, hospital linen, luxury hats, a restaurant, a law firm, payroll software, a government trade program and a city council campaign. It diagnoses the purchase type first (status, risk or volume) and changes the strategy to fit; the purchase type held steady across repeat runs. Three of the plays are shown word for word at https://reveremarketingmoguls.com/products/postmodern-marketing-mogul.html
+
+The local Muse and Ollama paths use the same rules but have not been re-tested since that update; small local models will give weaker plays than Claude. In Muse, type `/agent postmodern-marketing-mogul` to run it directly.
