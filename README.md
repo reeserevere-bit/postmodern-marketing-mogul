@@ -13,3 +13,10 @@ Knowledge: re-pull when the site changes.
 The list and the long writing live at https://rrrevere.substack.com.
 
 No hosted chat, no email capture, no messenger. This is a skill, not a service.
+
+## Known limits (v1.0.0)
+- Tested on `qwen2.5:7b-instruct` only. `gemma4:12b` is untested.
+- On a 7B model the diagram boxes are rough and the model sometimes writes "Angles:" and "Actions:" as labels. The three angles, three actions, the "You're here" line and the `Hermes-ready:` line are present in every tested run.
+- Muse fires a skill by matching words in its description, not meaning. A message with none of the listed words (sell, brand, bakery, candles, clothing, customers, competitor, positioning, and similar) will not fire it. Type `/agent postmodern-marketing-mogul` to run it directly.
+- `skills/.../GOLDEN.md` is a draft check and has not been reviewed by the author.
+

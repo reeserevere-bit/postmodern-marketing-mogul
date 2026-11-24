@@ -1,6 +1,6 @@
 ---
 name: postmodern-marketing-mogul
-description: "Postmodern Marketing Mogul, marketing strategy for 2040. When you sell a product, service, brand, shop, store, restaurant, company or business: positioning, pricing, offer, sales, customers, clients, competitor, strategy. Negocio, marca, vendo, clientes, competencia, mercadeo, estrategia."
+description: "Postmodern Marketing Mogul, marketing strategy for 2040. When you sell a product, service, brand, shop, store, restaurant, bakery, candles, clothing, company or business: positioning, pricing, offer, sales, customers, clients, competitor, strategy. Negocio, marca, vendo, clientes, competencia, mercadeo, estrategia."
 metadata:
   {
     "muse":
