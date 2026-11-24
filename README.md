@@ -8,6 +8,9 @@ Postmodern Marketing Mogul is a strategist built on the Revere Marketing Moguls 
 3. Upload everything in `skills/postmodern-marketing-mogul/knowledge/` (the `theories/` folder too) as project knowledge.
 4. Chat. Share the project link if you want others to use it.
 
+## One brain
+`project/instructions.md` is the only source of the strategist's rules. `system-prompt.txt`, `Modelfile` and the Muse `AGENT.md` are rebuilt from it with `bin/sync-prompts.sh`, so every version gives the same play. It answers in Spanish when you write in Spanish.
+
 ## Muse skill (local, advanced)
 Blue load-up banner: `node bin/banner.mjs --run` (RRR logo, then starts Muse chat).
 
