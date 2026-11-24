@@ -1,0 +1,6 @@
+.env
+.env.local
+*.local.json
+knowledge/vault/
+VAULT_PATH
+.DS_Store
