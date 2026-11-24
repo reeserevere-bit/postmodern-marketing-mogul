@@ -2,7 +2,7 @@
 
 Postmodern Marketing Mogul is a Muse skill (github.com/wlsdks/muse-agent) that runs a one-move strategist session from the Revere Marketing Moguls frameworks.
 
-Install: `cp -r skills/postmodern-marketing-mogul /path/to/muse-agent/skills/postmodern-marketing-mogul`
+Install (Muse loads user skills and agents from `~/.muse`): `cp -r skills/postmodern-marketing-mogul ~/.muse/skills/` and `cp -r agents/postmodern-marketing-mogul ~/.muse/agents/`. In chat the skill fires on its own when your message shares words with its description, and `/agent postmodern-marketing-mogul` loads the full rules.
 
 Model: `ollama pull gemma4:12b`, then `ollama create postmodern-marketing-mogul -f Modelfile`. Small machine: swap to `qwen2.5:7b-instruct` in the Modelfile.
 
